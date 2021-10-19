@@ -133,6 +133,7 @@ main{
 .locations{
     width:100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 
 }
@@ -172,4 +173,26 @@ footer p{
     font-size:0.5rem;
     text-align: left;
     margin: 5px;
+}
+
+@media only screen and (max-width:480px){
+    .mission{
+        width:100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .toms-container{
+        height:auto;
+        margin: auto auto;
+        /* min-height: 700px; */
+    }
+
+    .locations-container{
+        height:auto;
+    }
+
+    .location{
+        margin-bottom: 15px;
+    }
 }
