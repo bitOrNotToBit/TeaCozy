@@ -175,7 +175,7 @@ footer p{
     margin: 5px;
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:600px){
     .mission{
         width:100%;
         background-size: cover;
@@ -187,7 +187,13 @@ footer p{
         margin: auto auto;
         /* min-height: 700px; */
     }
-
+    .toms-container div{
+        margin: 35px;
+        margin-bottom: 25px;
+    }
+    .tea{
+        margin-bottom: 25px;
+    }
     .locations-container{
         height:auto;
     }
